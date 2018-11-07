@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "baseUrl": ".",
+        "skipLibCheck": true
+    },
+    "include": [
+        "src"
+    ]
+}

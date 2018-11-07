@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "jsonrpc-ws-proxy",
+  "version": "0.0.1",
+  "dependencies": {
+    "vscode-ws-jsonrpc": "^0.0.2-1",
+    "ws": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.10.1",
+    "@types/ws": "0.0.39",
+    "minimist": "^1.2.0",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "prepare": "npm run clean && npm run build",
+    "watch": "tsc -w",
+    "clean": "rimraf dist",
+    "build": "tsc",
+  }
+}
