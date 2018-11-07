@@ -17,6 +17,6 @@
     "prepare": "npm run clean && npm run build",
     "watch": "tsc -w",
     "clean": "rimraf dist",
-    "build": "tsc",
+    "build": "tsc"
   }
 }
