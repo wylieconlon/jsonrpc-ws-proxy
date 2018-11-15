@@ -1,8 +1,9 @@
 {
   "name": "jsonrpc-ws-proxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Wylie Conlon <wylieconlon@gmail.com>",
   "bin": "dist/server.js",
+  "main": "dist/server.js",
   "dependencies": {
     "js-yaml": "^3.12.0"
   },
