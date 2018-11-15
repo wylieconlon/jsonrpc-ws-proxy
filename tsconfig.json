@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
-        "rootDir": "src",
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
         "outDir": "dist",
-        "baseUrl": ".",
-        "skipLibCheck": true
+        "lib": ["es2016", "dom"]
     },
     "include": [
         "src"
