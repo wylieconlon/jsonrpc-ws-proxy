@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import * as ws from 'ws';
-import * as rpc from 'vscode-ws-jsonrpc';
-import * as rpcServer from 'vscode-ws-jsonrpc/lib/server';
+import * as rpc from '@sourcegraph/vscode-ws-jsonrpc';
+import * as rpcServer from '@sourcegraph/vscode-ws-jsonrpc/lib/server';
 import * as parseArgs from 'minimist';
 import * as http from 'http';
 import * as yaml from 'js-yaml';
