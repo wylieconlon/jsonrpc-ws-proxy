@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
+import * as http from 'http';
+import * as fs from 'fs';
+
+import * as parseArgs from 'minimist';
+import * as yaml from 'js-yaml';
 import * as ws from 'ws';
 import * as rpc from '@sourcegraph/vscode-ws-jsonrpc';
 import * as rpcServer from '@sourcegraph/vscode-ws-jsonrpc/lib/server';
-import * as parseArgs from 'minimist';
-import * as http from 'http';
-import * as yaml from 'js-yaml';
-import * as fs from 'fs';
 
 let argv = parseArgs(process.argv.slice(2));
 
