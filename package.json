@@ -21,15 +21,18 @@
   },
   "dependencies": {
     "@sourcegraph/vscode-ws-jsonrpc": "0.0.3-fork",
-    "js-yaml": "^3.12.0",
+    "js-yaml": "^3.13.1",
     "minimist": "^1.2.0",
-    "ws": "^6.1.0"
+    "ws": "^6.2.1"
   },
   "devDependencies": {
-    "@types/node": "^10.12.3",
+    "@types/node": "^10.14.8",
     "@types/ws": "^6.0.1",
-    "rimraf": "^2.6.2",
-    "typescript": "^3.0.1"
+    "javascript-typescript-langserver": "^2.11.3",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.1",
+    "vscode-css-languageserver-bin": "^1.4.0",
+    "vscode-html-languageserver-bin": "^1.4.0"
   },
   "license": "ISC"
 }
